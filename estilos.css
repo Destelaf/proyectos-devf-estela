@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(201, 158, 173);
+    color: rgb(46, 40, 54);
+    font-family: Mulish, sans-serif;
+}
+
+#titulo{text-align: center;
+}
+
+.container {
+    height: 800px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 32%;
+    float: left;
+    border: rgb(190, 138, 96) 2px solid;
+}
+
+.container2{
+    height: 800px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 65%;
+    float: right;
+    border: rgb(190, 138, 96) 2px solid;
+    
+}
+
+#descarga{font-family: Mulish, sans-serif;
+    color: rgb(190, 138, 96);
+    font-size: 30px;
+
+}
+
+.subtitulos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6A2E35;
+    text-align: center;
+}
+
+#foto{display: block;
+    padding-top: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;   
+}
