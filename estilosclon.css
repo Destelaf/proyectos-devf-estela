@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;  
+    justify-content: flex-end;
+}
+
+.esquina-derecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.esquina-derecha a{
+    margin-right: 10px;
+    color: black;
+}
+
+#fotoperfil {border-radius: 50%;
+
+}
+
+img {
+    margin-right: 10px;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;}
+
+main .logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .inputmenu{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #bdc1c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    }
+
+.input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+#lupita {
+    background-image: url(search_FILL0_wght400_GRAD0_opsz48.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.microfono{
+    background-image: url(mic_FILL0_wght400_GRAD0_opsz48.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.botones{
+    width: 530px;
+    margin: 0 auto;
+}
+
+.botones div{
+    display: inline-block;
+}
+
+main .botones button{
+    height: 36px;
+    border: none;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+main .botones button:hover{
+    border: 1px solid;
+    box-shadow: 1px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-izq{
+    justify-content: left;
+}
+
+footer .footer-der{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
